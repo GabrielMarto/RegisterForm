@@ -86,9 +86,7 @@ function autocomplete(inp, arr) {
   
   var modelosHyundai = ['HR HDB'];
   autocomplete(document.getElementById("modelo"), modelosHyundai);
+
+  var modelosIveco =['490S42', 'CAVALLINO 450E32', 'CURSOR 450E33', 'DAILY 35S14HDCS', 'DAILY4912', 'CURSOR 450E32 TN', 'HD490S38']
   }
   
-function getInputFromTextBox() {
-  var entrada = document.getElementById("userInput").value;
-  alert(entrada);
-}
